@@ -6,21 +6,15 @@
     --wcolor:#FFFFFF;
     --bkb: #C271FF;
     --mem:#071629;
-   
 }
 body {
     background: var(--wcolor);
-    /* font-family: "Source Sans Pro", sans-serif; */
 }
 .header{
-    /* background: var(--wcolor); */
     width: 100%;
     height: 1055px;
     background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, rgba(41, 48, 61, 0.00) 0%, #071629 100%),url('./img/Bitmaps.jpg');
-    /* background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, hsla(223, 10%, 93%, 0) 0%, #e8eaed 100%),url('./img/Bitmap.jpg'); */
-
     background-position: 0 0;
-    /* background: rgba(0, rgb(227rgb(231, 231, 232)3, 227), rgb(232, 232, 238), alpha)url('./img/Bitmap.jpg'); */
     background-blend-mode:soft-light;
     background-position: center;
     background-size: cover;
@@ -113,7 +107,6 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .titlex{
@@ -170,21 +163,18 @@ a{
     align-items: center;
     justify-content: center;
     font-family: "Source Sans Pro", sans-serif;
-
 }
 .pp{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 .ppsx{
     width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 .pp .ln{
     color: var(--bkb);
@@ -239,7 +229,7 @@ a{
     line-height: 27px;
 }
 .pp .opt .snm{
-    color: var(--wcolor);
+   color: var(--wcolor);
    text-align: center;
    font-size: 16px;
    font-family: "Source Sans Pro", sans-serif;
@@ -275,18 +265,15 @@ a{
     overflow: hidden;
 }
 .mains .topp1{
-
     width: 70%;
     display: flex;
     justify-content: center;
- 
 }
 .main .top1 .txt{
     margin-left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
 }
 .main .top1 .txt .desc{
     display: flex;
@@ -331,7 +318,6 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
 }
 .main .topp2{
     font-family: "Source Sans Pro", sans-serif;
@@ -411,10 +397,8 @@ a{
     border-radius: 50%;
     background-color: var(--wcolor);
     cursor: pointer;
-    /* transform: translate(80%,-170%); */
     transform: translate(100%);
-    top: 215%;
-   
+    top: 215%;   
 }
 .main .top3{
     width: 100%;
@@ -476,8 +460,6 @@ a{
     font-style: normal;
     font-weight: 200;
     opacity: 80%;
-    /* width: 212px; */
-
 }
 .top3 .btn button{
     margin-top: 100px;
@@ -493,7 +475,6 @@ a{
     align-items: center;
     justify-content: center;
     font-family: "Source Sans Pro", sans-serif;
-
 }
 
 .top4{
@@ -579,7 +560,6 @@ a{
    
 }
 .footers .sc{
-  
     font-size: 12px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
@@ -602,8 +582,7 @@ a{
 }
 @media only screen and (max-width: 1170px) {
     .main .topp2{
-        width: 97%;
-        
+        width: 97%;   
     }
    
 }
@@ -619,14 +598,12 @@ a{
 @media only screen and (max-width: 1000px) {
     .ppsx{
         width: 90%;
-      
     }
    
 }
 @media only screen and (max-width: 800px) {
     .ppsx{
         width: 97%;
-     
     }
     .titles h1{
         font-size: 80px;
