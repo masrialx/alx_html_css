@@ -17,9 +17,3 @@ Modify the styling: Adjust the CSS properties to change colors, fonts, sizes, an
 Add images: Insert <img> tags within the HTML file and specify the source of the images.
 Include links: Use the <a> tag to create clickable links to other webpages.
 Feel free to experiment and make changes according to your needs.
-
-Credits
-This project was created by [Your Name]. If you have any questions or suggestions, please contact me at [your-email@example.com].
-
-License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it. See the LICENSE file for more details.
