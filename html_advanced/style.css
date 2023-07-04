@@ -524,7 +524,7 @@ display: flex;
 .topp4 .top42{
     display: flex;
 }
-.top4 .top4 .tp{
+.top4 .tp{
     font-size: 16px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
@@ -532,16 +532,26 @@ display: flex;
     line-height: normal;
     color: var(--mem);
 }
-.top4 .top4 .top41{
+ .top4 .top41 div{
     color: rgba(7, 22, 41, 0.50);
     font-size: 14px;
+    width: 350px;
     font-family: "Source Sans Pro", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
 
 }
+.top4 .top42 div{
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    width: 350px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 
+}
 .top4 .topp4 .fq{
     color: #071629;
     font-size: 60px;
