@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
-
-
 :root{
     --wcolor:#FFFFFF;
     --bkb: #C271FF;
@@ -19,16 +16,19 @@ body {
     /* background: var(--wcolor); */
     width: 100%;
     height: 1055px;
-    background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, rgba(41, 48, 61, 0.00) 0%, #071629 100%),url('./img/Bitmap.jpg');
+    background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, rgba(41, 48, 61, 0.00) 0%, #071629 100%),url('./img/Bitmaps.jpg');
+    /* background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, hsla(223, 10%, 93%, 0) 0%, #e8eaed 100%),url('./img/Bitmap.jpg'); */
+
     background-position: 0 0;
+    /* background: rgba(0, rgb(227rgb(231, 231, 232)3, 227), rgb(232, 232, 238), alpha)url('./img/Bitmap.jpg'); */
+    background-blend-mode:soft-light;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    /* background-blend-mode: normal, color; */
+    background-blend-mode: normal, color;
     
 }
 .menu{
-
     width: 100%;
     height: 95%;
     display: flex;
@@ -504,15 +504,16 @@ a{
     align-items: center;
 }
 .top4 .topp4{
-  width: 80%;
-  height: 707px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
+    height: 707px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
 }
 .topp4 .top41{
-display: flex;
+    justify-content: space-evenly;
+    display: flex;
 }
 .topp4 .top41 div{
     margin: 10px;
