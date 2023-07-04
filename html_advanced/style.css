@@ -493,17 +493,15 @@ a{
     width: 90%;
 }
 .topp4 .top41{
-    justify-content: space-evenly;
+    width: 70%;
+    justify-content: space-between;
     display: flex;
 }
-.topp4 .top41 div{
-    margin: 10px;
-}
 
-.topp4 .top42 div{
-    margin: 10px;
-}
 .topp4 .top42{
+    margin-bottom: 50px;
+    width: 70%;
+    justify-content: space-between;
     display: flex;
 }
 .top4 .tp{
