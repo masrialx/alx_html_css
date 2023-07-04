@@ -1,0 +1,624 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root{
+    --wcolor:#FFFFFF;
+    --bkb: #C271FF;
+    --mem:#071629;
+   
+}
+body {
+    background: var(--wcolor);
+    /* font-family: "Source Sans Pro", sans-serif; */
+}
+.header{
+    /* background: var(--wcolor); */
+    width: 100%;
+    height: 1055px;
+    background-image: radial-gradient(85.90% 85.90% at 50.00% 14.10%, rgba(41, 48, 61, 0.00) 0%, #071629 100%),url('./img/Bitmap.jpg');
+    background-position: 0 0;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    /* background-blend-mode: normal, color; */
+    
+}
+.menu{
+
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+ .menu .menus{
+    height: 1055px;
+    width: 95%;
+    height: 70px;
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    color: white;
+}
+a{
+    color: var(--wcolor);
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.menus ul{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: var(--wcolor);
+    margin-left: 10px;
+}
+.logo .lo{
+    height: 30px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+.logos img{
+    width: 200px;
+    cursor: pointer;
+    height: 200px;
+}
+.menu ul .logos .logo{
+    cursor: pointer;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.menu ul .list{
+    margin-right: 10px;
+    display: flex;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.list li{
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+}
+.title{
+    width: 95%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titlex{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.titles{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titles h1{
+    font-family: "Source Sans Pro", sans-serif;
+    color: var(--wcolor);
+    font-size: 100px;
+}
+.titles div{
+    margin: 5px;
+    width: 95%;
+   
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.title .word{
+    font-family: "Source Sans Pro", sans-serif;
+    color: var(--wcolor);
+    margin-top: 70px;
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.title .btn button{
+    margin-top: 20px;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px; 
+    background:var(--bkb);
+    border: none;
+    color: var(--wcolor);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+.pp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.ppsx{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.pp .ln{
+    color: var(--bkb);
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.pp .t{
+    margin: 50px;
+}
+.pp .t .ff{
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 70%;
+    line-height: normal;
+    color: var(--wcolor);
+}
+.pp .pps{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.pp .opt img{
+    margin-left: 5px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.pp .opt .nm{
+    font-size: 17px;
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color:var(--wcolor);
+    text-align: center;
+    font-size: 18px;
+    font-family: "Source Sans Pro", sans-serif;
+    opacity: 90%;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+}
+.pp .opt .snm{
+    color: var(--wcolor);
+   text-align: center;
+   font-size: 16px;
+   font-family: "Source Sans Pro", sans-serif;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 24px;
+   display: flex;
+   width: 150px;
+   flex-direction: column;
+   flex-shrink: 0;
+   opacity: 80%;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.mains{
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mains .top1{
+    background-color: var(--bkb);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+    overflow: hidden;
+}
+.mains .topp1{
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+ 
+}
+.main .top1 .txt{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.main .top1 .txt .desc{
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    color: var(--wcolor);
+    flex-shrink: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px;
+    font-size: 22px;
+}
+.main .top1 .txt .nm{
+    margin-top: 10px;
+    color: var(--wcolor);
+    font-size: 22px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+.main .top1 .txt .ad{
+    color: var(--wcolor);
+    font-size: 22px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+.top1 img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.main .top2{
+    width: 100%;
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main .topp2{
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 450px;
+}
+.main .vid{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+.main .vid .vnm{
+    font-weight: bold;
+}
+.main .vid .vlist{
+    margin: 10px;
+}
+.main .pop{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: #071629;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+}
+.main .pop .pm{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: var(--bkb);
+}
+.main .vid .pro{
+    display: flex;
+    margin: 5px;
+}
+.main .vid .pro span{
+    margin: 7px 10px;
+    color: var(--bkb);
+}
+.main .vid .star{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .vid .star .min{
+    color: var(--bkb);
+}
+.main .vid .pro img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.main .vid .vdesc{
+    display: flex;
+    width: 242px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.main .vid .plays{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: var(--wcolor);
+    cursor: pointer;
+    /* transform: translate(80%,-170%); */
+    transform: translate(100%);
+    top: 215%;
+   
+}
+.main .top3{
+    width: 100%;
+    height: 502px;
+    background-color: var(--mem);
+    display: flex;
+    justify-content: center;
+}
+.main .top3 .topp3{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main .top3 .Topp3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main .top3 .topp3 .free{
+    font-family: "Source Sans Pro", sans-serif;
+    color: var(--bkb);
+    font-size: 32px;
+}
+.main .top3 .topp3 .mem{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 32px;
+    color: var(--wcolor);
+}
+
+.main .top3 .topp3x{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+
+}
+.main .top3 .topp3x .log{
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--wcolor);
+}
+.main .top3 .log img{
+    width: 43.666px;
+    height: 35.353px;
+}
+.main .top3 .log .dk{
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 200;
+    opacity: 80%;
+    /* width: 212px; */
+
+}
+.top3 .btn button{
+    margin-top: 100px;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px; 
+    background:var(--bkb);
+    border: none;
+    color: var(--wcolor);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+
+.top4{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top4 .topp4{
+  width: 80%;
+  height: 707px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.topp4 .top41{
+display: flex;
+}
+.topp4 .top41 div{
+    margin: 10px;
+}
+
+.topp4 .top42 div{
+    margin: 10px;
+}
+.topp4 .top42{
+    display: flex;
+}
+.top4 .top4 .tp{
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--mem);
+}
+.top4 .top4 .top41{
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.top4 .topp4 .fq{
+    color: #071629;
+    font-size: 60px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 249px;
+    background-color: var(--mem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footers{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.footers .sc{
+  
+    font-size: 12px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--wcolor);
+}
+.footers .scc{
+    height: 249px;
+    display: flex;
+    align-items: end; 
+    position: relative;
+    bottom: 50px;
+}
+@media only screen and (max-width: 1350px) {
+    .main .topp2{
+        width: 90%;
+    }
+   
+}
+@media only screen and (max-width: 1170px) {
+    .main .topp2{
+        width: 97%;
+        
+    }
+   
+}
+@media only screen and (max-width: 1110px) {
+    .main .topp2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top2 .vid{
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .ppsx{
+        width: 90%;
+      
+    }
+   
+}
+@media only screen and (max-width: 800px) {
+    .ppsx{
+        width: 97%;
+     
+    }
+    .titles h1{
+        font-size: 80px;
+    }
+   
+}
