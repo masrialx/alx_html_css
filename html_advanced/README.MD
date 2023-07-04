@@ -1,9 +1,10 @@
-This is a simple README file that provides an overview of an HTML and CSS project.
 
-Description
+## This is a simple README file that provides an overview of an HTML and CSS project.
+
+## Description
 This project consists of HTML and CSS files that can be used to create a basic webpage. The HTML file contains the structure and content of the webpage, while the CSS file is responsible for the styling and layout.
 
-Usage
+## Usage
 To use this project, follow these steps:
 
 Download the HTML and CSS files.
