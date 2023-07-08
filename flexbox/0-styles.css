@@ -353,8 +353,5 @@ template {
   display: flex;
 }
 
-/* No need for row::after selector anymore */
 
-[class*='col-'] {
-  /* No need for float: left; anymore */
-}
+
