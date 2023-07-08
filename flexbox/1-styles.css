@@ -345,7 +345,7 @@
    */
   
   [hidden]{
-    display: none;
+   display: none;
   }
   
   /* Grid section */
@@ -356,11 +356,9 @@
   }
   
   [class*='col-'] {
-  
     padding: 0.5rem;
     box-sizing: border-box;
   }
-  
   
   .container {
     max-width: 960px;
@@ -369,23 +367,3 @@
     box-sizing: border-box;
   }
   
-  
-  
-.section-services {
-}
-
-.section-works {
-}
-
-.section-about-us {
-}
-
-.section-latest-news {
-}
-
-.section-testimonial {
-}
-
-.section-contact {
-
-}
