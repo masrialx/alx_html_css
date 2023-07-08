@@ -372,7 +372,23 @@
   
   
 
-.section-services .row {
-    flex-wrap: wrap;
+/* Other CSS styles... */
+
+/* Section SERVICES */
+.section-services {
+    /* Your existing styles for the section go here */
+  
+    /* Targeting the .row class inside .section-services */
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+  
+    /* Other styles for the .row class inside .section-services */
+    /* Add your additional styles here */
   }
+  
+  /* Other CSS styles... */
   
