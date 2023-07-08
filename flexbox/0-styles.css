@@ -353,3 +353,8 @@ template {
   display: flex;
 }
 
+[class*='col-'] {
+  /* float: left; */
+}
+
+
