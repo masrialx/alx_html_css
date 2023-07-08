@@ -372,7 +372,10 @@
   
   
 
-/* Other CSS styles... */
+.section-services .row {
+    flex-wrap: wrap;
+  }
+  /* Other CSS styles... */
 
 /* Section SERVICES */
 .section-services {
