@@ -350,7 +350,7 @@
   
   /* Grid section */
   
-  .row {
+  /* .row {
     display: flex; 
     flex-wrap: wrap;
   }
@@ -365,5 +365,5 @@
     margin: 0 auto;
     padding: 0 1rem;
     box-sizing: border-box;
-  }
+  } */
   
