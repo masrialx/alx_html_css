@@ -389,7 +389,18 @@
 
 
   
+/*** 3. CARDS ***/
+/* Section Services ============================= */
+
+/* Section Works ============================= */
+
+/* Section About Us ============================= */
+
+/* Section Latest news ============================= */
+/* Section Latest news ============================= */
 .section-latest-news .row {
     flex-direction: row-reverse;
   }
+  
+  /*** 4. CARD ***/
   
