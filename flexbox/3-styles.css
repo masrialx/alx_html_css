@@ -361,10 +361,6 @@
     box-sizing: border-box;
   }
   
-  [class*='col-'] {
-    padding: 0.5rem;
-    box-sizing: border-box;
-  }
   
   .container {
     max-width: 960px;
@@ -409,8 +405,8 @@
   
   /* Section SERVICES ============================= */
 .section-services .row {
-    flex-wrap: wrap;
-  }
-  
+  flex-wrap: wrap;
+}
+
   /*** 4. CARD ***/
   
