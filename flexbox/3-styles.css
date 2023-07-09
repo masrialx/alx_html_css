@@ -361,6 +361,10 @@
     box-sizing: border-box;
   }
   
+  [class*='col-'] {
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
   
   .container {
     max-width: 960px;
