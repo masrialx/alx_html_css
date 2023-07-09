@@ -355,11 +355,11 @@
     flex-wrap: wrap;
   }
   
-  [class*='col-'] {
+  /* [class*='col-'] {
   
     padding: 0.5rem;
     box-sizing: border-box;
-  }
+  } */
   
   
   .container {
@@ -418,8 +418,10 @@
   }
 
   [class*='col-'] {
+    padding: 1rem;
     margin: 1rem;
   }
+  
 
   ul.row {
     margin: -1rem;
