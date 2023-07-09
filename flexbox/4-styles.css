@@ -355,12 +355,12 @@
     flex-wrap: wrap;
   }
   
-  /* [class*='col-'] {
+  /* /* [class*='col-'] {
   
     padding: 0.5rem;
     box-sizing: border-box;
   } */
-  
+   */
   
   .container {
     max-width: 960px;
