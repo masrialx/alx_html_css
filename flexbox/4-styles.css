@@ -349,7 +349,6 @@
   }
   
   /* Grid section */
-  
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -401,16 +400,10 @@
   }
   
   [class*='col-'] {
-    padding: 1rem;
     margin: 1rem;
   }
   
   ul.row {
     margin: -1rem;
-  }
-  
-  [class*='col-'] {
-    padding: 0.5rem;
-    box-sizing: border-box;
   }
   
