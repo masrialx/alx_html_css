@@ -351,16 +351,9 @@
   /* Grid section */
   
   .row {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
   }
-  
-  /* /* [class*='col-'] {
-  
-    padding: 0.5rem;
-    box-sizing: border-box;
-  } */
-   */
   
   .container {
     max-width: 960px;
@@ -370,41 +363,31 @@
   }
   
   .section-services {
-}
-
-.section-works {
-}
-
-.section-about-us {
-}
-
-.section-latest-news {
-}
-
-.section-testimonial {
-}
-
-.section-contact {
-}
-
-
+  }
   
-/*** 3. CARDS ***/
-/* Section Services ============================= */
-
+  .section-works {
+  }
   
-/* Section Works ============================= */
-
-/* Section About Us ============================= */
-
-/* Section Latest news ============================= */
-/* Section Latest news ============================= */
-.section-latest-news .row {
+  .section-about-us {
+  }
+  
+  .section-latest-news {
+  }
+  
+  .section-testimonial {
+  }
+  
+  .section-contact {
+  }
+  
+  /*** 3. CARDS ***/
+  /* Section Latest news */
+  .section-latest-news .row {
     flex-direction: row-reverse;
   }
   
-  /* Section SERVICES ============================= */
-.section-services .row {
+  /* Section SERVICES */
+  .section-services .row {
     flex-wrap: wrap;
   }
   
@@ -412,17 +395,20 @@
   .col-1-3 {
     width: calc((100% / 3) - 2rem);
   }
-
+  
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-
- 
   
-
+  [class*='col-'] {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
   ul.row {
     margin: -1rem;
   }
+  
   [class*='col-'] {
     padding: 0.5rem;
     box-sizing: border-box;
