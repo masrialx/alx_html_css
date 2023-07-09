@@ -11,7 +11,7 @@
 
  /* Navbar section */
 
-nav {
+ nav {
     display: flex; /* Added display property */
   }
   
@@ -436,6 +436,8 @@ nav {
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center; /* Set align-items property to center */
+
   }
   
   /* Remove unnecessary rules */
@@ -445,6 +447,9 @@ nav {
     display: none;
   }
   
+  /* Header section */
+
+  /* Rest of the CSS styles... */
   
   
   /* Rest of your CSS code */
