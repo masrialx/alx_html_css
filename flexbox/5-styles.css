@@ -410,10 +410,18 @@
 
 /* Header section */
 
+/* Header section */
 
 .header-container {
     display: flex;
     justify-content: space-between;
+  }
+  
+  /* Remove unnecessary rules */
+  .header-logo,
+  .header-logo a,
+  .navbar-menu {
+    display: none;
   }
   
   
