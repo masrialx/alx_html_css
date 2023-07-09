@@ -417,10 +417,7 @@
     width: calc((100% / 2) - 2rem);
   }
 
-  [class*='col-'] {
-    padding: 1rem;
-    margin: 1rem;
-  }
+ 
   
 
   ul.row {
