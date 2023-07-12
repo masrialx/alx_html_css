@@ -358,7 +358,6 @@ template {
 
 [class*='col-'] {
   margin: 1rem;
-  padding: 0; /* Remove the padding */
   box-sizing: border-box;
 }
 
