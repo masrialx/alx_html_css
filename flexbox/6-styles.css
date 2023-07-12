@@ -395,7 +395,8 @@ ul.row {
 }
 
 /* Navbar section */
-nav {
+
+.nav {
   display: flex;
 }
 
