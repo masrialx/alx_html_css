@@ -352,7 +352,7 @@ template {
 /* Grid section */
 
 .row {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
 }
 
