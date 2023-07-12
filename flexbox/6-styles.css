@@ -400,10 +400,12 @@ ul.row {
   display: flex;
 }
 
-.nav .nav-item {
+/* .nav .nav-item {
+  margin: 0 0 0 2rem;
+} */
+.nav-item {
   margin: 0 0 0 2rem;
 }
-
 .nav .nav-item + .nav-item {
   margin: 0 0 0 2rem;
 }
