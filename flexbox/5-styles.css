@@ -390,10 +390,10 @@ ul.row {
 }
 
 /* Header section */
-.header-container {
+/* .header-container {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* .header-logo,
 .navbar-menu {
