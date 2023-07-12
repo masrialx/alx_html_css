@@ -407,9 +407,6 @@ nav {
   margin: 0 0 0 2rem;
 }
 
-I have added the display: flex property to the nav class selector and removed the display declaration from the .nav .nav-item selector. Additionally, I created a new selector for .nav .nav-item + .nav-item to target the adjacent nav-item elements and applied the margin declaration to give them a margin of 0 0 0 2rem.
-
-
 
 
 
