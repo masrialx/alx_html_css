@@ -349,7 +349,6 @@ template {
 }
 
 /* Grid section */
-/* Grid section */
 
 .row {
   display: flex;
@@ -394,5 +393,3 @@ ul.row {
   display: flex;
   justify-content: space-between;
 }
-
-
