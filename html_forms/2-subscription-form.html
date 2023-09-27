@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscription Form</title>
+</head>
+<body>
+    <h1>Subscribe Now</h1>
+    <form action="subscribe.php" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label>Subscription Preference:</label>
+            <label>
+                <input type="radio" name="subscription" value="monthly" required> Monthly
+            </label>
+            <label>
+                <input type="radio" name="subscription" value="yearly" required> Yearly
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Subscribe">
+        </div>
+    </form>
+</body>
+</html>
